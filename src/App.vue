@@ -52,7 +52,7 @@
 
   const cadastraTarefa = () => {
     const tarefaNova = {
-      titulo: estado. tarefatemp,
+      titulo: estado.tarefaTemp,
       finalizada: false,
     }
     estado.tarefas.push(tarefaNova);
